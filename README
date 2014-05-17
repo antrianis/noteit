@@ -1,0 +1,9 @@
+#Make a virtual env
+virtualenv env
+source env/bin/activate
+
+#Install the requirements
+pip install -r requirements.txt 
+
+#Run
+python main.py
